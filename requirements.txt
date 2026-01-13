@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+assemblyai
+qdrant-client
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-sambanovasystems
+llama-index-llms-ollama
