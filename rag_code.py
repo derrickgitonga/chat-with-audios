@@ -1,3 +1,9 @@
+import os
+
+# Disable TensorFlow to avoid DLL load errors on Windows if not needed
+os.environ["TRANSFORMERS_NO_TF"] = "1"
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+
 import logging
 from qdrant_client import models
 from qdrant_client import QdrantClient
